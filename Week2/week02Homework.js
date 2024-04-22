@@ -10,5 +10,5 @@ console.log(placeSentence, topSentence);
 if (numberOfToppings < 10) {
   console.log("Quality not quantity");
 } else if (numberOfToppings >= 10) {
-  console.log("A whole not of pizza");
+  console.log("A whole lot of pizza");
 }
