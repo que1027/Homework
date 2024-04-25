@@ -92,7 +92,8 @@
 
 - Create and provide link to User Flow Diagram
 
-- Create and provide link to [SWOT Analysis](https://docs.google.com/document/d/1K5ix6TZr2l2LnPKNnVj8PRzfkQoVlEwFBbynrA5aj44/edit?usp=sharing)
+- Create and provide link to [SWOT Analysis]
+*will be a DOCS file in this repo*
 
 ## Submitting _Week 1_ Homework, this is due to your TA by End of Day (EOD) Sunday before Week 4
 
