@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+<nav>
+
+</nav>
+<main>
+
+</main>
+<footer>
+
+</footer>
+  </header>
+<script>
+
+  function greetCustomer(){
+    let toppings = ['chicken','green peppers','hamburger','onion']
+    console.log("Welcome to Pizza House our toppings are")
+    for(i =0; i  < toppings.length; i++){
+      let andFix = i+1;
+      if(andFix == toppings.length){
+      console.log(`and ${toppings[i]}`);
+      }else{
+        console.log(toppings[i]);
+      }
+      console.log('')
+    }
+    console.log("What would you like?")
+    console.log("")
+    let returnValue = getPizzaOrder("medium", "thin");
+    preparePizza(returnValue);
+    let pizza = {
+    size: "medium",
+    crust:"thin",
+    toppings:"chicken and green peppers"
+  }
+    servePizza(pizza);
+
+
+  }
+
+  greetCustomer()
+
+
+  function getPizzaOrder(size,crust,...chosenToppings){
+    console.log(`One ${size} ${crust} crust pizza with`);
+    if(chosenToppings.length < 1){
+        console.log("a blank canvas coming up")
+      }
+    for(i = 0; i < chosenToppings.length; i++){
+      let andFix = i+1;
+      if(andFix == chosenToppings.length){
+        console.log(`and ${chosenToppings[i]} coming up!`);
+        console.log("")
+      }else{
+        console.log(chosenToppings[i]);
+    }
+  }
+    
+    let order = {
+    size:size,
+    crust:crust,
+    toppings:chosenToppings
+
+    }
+    return order
+  }
+
+
+
+  function preparePizza(a){
+  console.log(`Getting it ready for ya!`)
+  console.log("")
+  }
+
+  function servePizza(pizza){
+
+  console.log(`Oorder Up here's your ${pizza.size} ${pizza.crust} crust pizza with ${pizza.toppings} .enjoy!`)
+
+  }
+
+</script>
+</body>
+</html>
