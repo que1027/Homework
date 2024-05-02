@@ -33,7 +33,7 @@
     }
     console.log("What would you like?")
     console.log("")
-    let returnValue = getPizzaOrder("medium", "thin");
+    let returnValue = getPizzaOrder("medium", "thin", "green peppers", "chicken");
     preparePizza(returnValue);
     let pizza = {
     size: "medium",
@@ -54,6 +54,7 @@
         console.log("a blank canvas coming up")
       }
     for(i = 0; i < chosenToppings.length; i++){
+      
       let andFix = i+1;
       if(andFix == chosenToppings.length){
         console.log(`and ${chosenToppings[i]} coming up!`);
