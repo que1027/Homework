@@ -1,5 +1,8 @@
 body{
   background-color:tan;
+  padding:2%;
+  margin:2%;
+  border-style: dotted;
 }
 img{
   width: 30%;
