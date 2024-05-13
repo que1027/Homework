@@ -1,4 +1,4 @@
-body{
+#body{
   background-color:tan;
   padding:2%;
   margin:2%;
@@ -8,8 +8,11 @@ img{
   width: 30%;
   height: 30%;
 }
-footer{
+.footer{
   background-color: white;
   padding: 2%;
+}
+img:hover{
+  width: 20px;
 }
 

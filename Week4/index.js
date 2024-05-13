@@ -32,7 +32,7 @@ bodyElement.innerHTML =
   "</p>" +
   "</main>" +
   "<a>" +
-  "<footer>© 2024 Travel Doge | Powered by Zax Tech " +
+  "<footer class='footer'>© 2024 Travel Doge | Powered by Zax Tech " +
   '<a href="Unavailible.html">Work With Travel Doge</a> | ' +
   '<a href="Unavailible.html">Privacy Policy</a>' +
   "</footer>";
